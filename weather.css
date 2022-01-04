@@ -1,0 +1,56 @@
+html {
+  background-color: rgb(126, 242, 255);
+}
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.oneDay {
+  width: 18em;
+  padding: 1em;
+  padding-top: 2em;
+}
+.search {
+  padding: 1em;
+}
+button {
+  margin-left: 0.5em;
+}
+.weather {
+  margin-left: 1em;
+}
+.tempIcon {
+  display: flex;
+  flex-wrap: nowrap;
+}

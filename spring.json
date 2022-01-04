@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Black T-Shirt",
+    "price": "9.99",
+    "imgPath": "images/blackt.png"
+  },
+  {
+    "name": "Navy T-Shirt",
+    "price": "9.99",
+    "imgPath": "images/navy.jpg"
+  },
+  {
+    "name": "Pink T-Shirt",
+    "price": "9.99",
+    "imgPath": "images/pink.jpg"
+  },
+  {
+    "name": "Type 7 T-Shirt",
+    "price": "12.00",
+    "imgPath": "images/seven.png"
+  },
+  {
+    "name": "Porsche",
+    "price": "19.99",
+    "imgPath": "images/porche.jpg"
+  },
+  {
+    "name": "Light Blue Dress Shirt",
+    "price": "25.00",
+    "imgPath": "images/dressshirt.png"
+  },
+  {
+    "name": "Black Dress Shirt",
+    "price": "25.00",
+    "imgPath": "images/bds.png"
+  },
+  {
+    "name": "Green Dress Shirt",
+    "price": "20.00",
+    "imgPath": "images/gds.jpg"
+  },
+  {
+    "name": "Grey Dress Shirt",
+    "price": "25.00",
+    "imgPath": "images/greyds.jpg"
+  },
+  {
+    "name": "Red Dress Shirt",
+    "price": "25.00",
+    "imgPath": "images/redds.png"
+  },
+  {
+    "name": "Purple Dress Shirt",
+    "price": "25.00",
+    "imgPath": "images/purpds.png"
+  },
+  {
+    "name": "Black Gym Shorts",
+    "price": "15.00",
+    "imgPath": "images/blackshort.png"
+  },
+  {
+    "name": "Black Dress Shorts",
+    "price": "20.00",
+    "imgPath": "images/blackdshort.jpg"
+  },
+  {
+    "name": "Black Fleece Shorts",
+    "price": "14.99",
+    "imgPath": "images/lblackshort.png"
+  },
+  {
+    "name": "Black & Green Fleece Shorts",
+    "price": "25.00",
+    "imgPath": "images/greenbshort.jpg"
+  },
+  {
+    "name": "Grey Fleece Shorts",
+    "price": "25.00",
+    "imgPath": "images/greyfleece.jpg"
+  },
+  {
+    "name": "Red Shorts",
+    "price": "14.99",
+    "imgPath": "images/redshorts.jpg"
+  },
+  {
+    "name": "Blue Fleece Shorts",
+    "price": "14.99",
+    "imgPath": "images/bshort.png"
+  },
+  {
+    "name": "Grey Gym Shorts",
+    "price": "14.99",
+    "imgPath": "images/greyshort.png"
+  },
+  {
+    "name": "Green Cotton Shorts",
+    "price": "14.99",
+    "imgPath": "images/greencshort.png"
+  },
+  {
+    "name": "Cargo Shorts",
+    "price": "15.00",
+    "imgPath": "images/cargoshort.png"
+  },
+  {
+    "name": "Green Cargo Shorts",
+    "price": "15.00",
+    "imgPath": "images/cargoshortg.png"
+  }
+]

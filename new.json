@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Graphic Hoodie",
+    "price": "45.00",
+    "imgPath": "images/hoodie.jpg"
+  },
+  {
+    "name": "Pink Hoodie",
+    "price": "45.00",
+    "imgPath": "images/pinkh.png"
+  },
+  {
+    "name": "Green Flannel",
+    "price": "12.99",
+    "imgPath": "images/flannel.jpg"
+  },
+  {
+    "name": "Red Flannel",
+    "price": "25.99",
+    "imgPath": "images/flannelred.png"
+  },
+  {
+    "name": "Red & Black Flannel",
+    "price": "12.99",
+    "imgPath": "images/redbflannel.png"
+  },
+  {
+    "name": "Orange Flannel",
+    "price": "17.99",
+    "imgPath": "images/uglyflannel.jpg"
+  },
+  {
+    "name": "White & Black Flannel",
+    "price": "17.99",
+    "imgPath": "images/wbflannel.jpg"
+  },
+  {
+    "name": "White & Blue Flannel",
+    "price": "12.99",
+    "imgPath": "images/whiteblueflannel.png"
+  },
+  {
+    "name": "Red & White Flannel",
+    "price": "25.99",
+    "imgPath": "images/redwflannel.jpg"
+  },
+  {
+    "name": "Black Overcoat",
+    "price": "170.49",
+    "imgPath": "images/coat3.jpg"
+  },
+  {
+    "name": "Overcoat",
+    "price": "199.99",
+    "imgPath": "images/coat1.jpg"
+  },
+  {
+    "name": "Overcoat Grey",
+    "price": "100.00",
+    "imgPath": "images/coat2.png"
+  },
+  {
+    "name": "Grey Dress Shirt",
+    "price": "25.00",
+    "imgPath": "images/lsgds.jpg"
+  },
+  {
+    "name": "Navy Dress Shirt",
+    "price": "25.00",
+    "imgPath": "images/lsnds.png"
+  },
+  {
+    "name": "Black Dress Shirt",
+    "price": "25.00",
+    "imgPath": "images/blacklsds.jpg"
+  },
+  {
+    "name": "Red Dress Shirt",
+    "price": "25.00",
+    "imgPath": "images/redlsds.png"
+  },
+  {
+    "name": "Purple Dress Shirt",
+    "price": "25.00",
+    "imgPath": "images/purplsds.jpg"
+  },
+  {
+    "name": "Black Joggers",
+    "price": "30.00",
+    "imgPath": "images/joggerblack.png"
+  },
+  {
+    "name": "Xbox Joggers",
+    "price": "30.00",
+    "imgPath": "images/joggerx.png"
+  },
+  {
+    "name": "Grey Joggers",
+    "price": "30.00",
+    "imgPath": "images/greyjogger.webp"
+  }
+]

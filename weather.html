@@ -4,7 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="weather.js"></script>
+    <link rel="stylesheet" href="weather.css" />
     <title>Weather</title>
   </head>
-  <body></body>
+  <body>
+    <nav class="nav main-nav">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="store.html">STORE</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+      </ul>
+    </nav>
+    <div class="oneDay">
+      <div class="search">
+        <input type="text" />
+        <button>Search</button>
+      </div>
+      <div class="weather">
+        <div class="city">Alaska</div>
+        <div class="tempIcon">
+          <div class="temp">17°F</div>
+          <img
+            src="https://openweathermap.org/img/wn/01n@2x.png"
+            alt="Weather Icon"
+            class="img"
+          />
+        </div>
+        <div class="feel">Feels Like: 15°F</div>
+        <div class="min">Min: -3°F</div>
+        <div class="max">Max: 18°F</div>
+        <div class="desc">Cloudy</div>
+        <div class="humidity">Humidity: 13%</div>
+        <div class="wind">Wind Speed: 3 MPH</div>
+      </div>
+    </div>
+    <div class="sevenDay"></div>
+  </body>
 </html>
