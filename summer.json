@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Pirate Shirt ",
+    "price": "19.99",
+    "imgPath": "images/summerds.jpg"
+  },
+  {
+    "name": "Floral Shirt",
+    "price": "19.99",
+    "imgPath": "images/floralsums.jpg"
+  },
+  {
+    "name": "Blue Floral Shirt",
+    "price": "19.99",
+    "imgPath": "images/bluefloral.jpg"
+  },
+  {
+    "name": "Red Floral Shirt",
+    "price": "19.99",
+    "imgPath": "images/redfloral.jpg"
+  },
+  {
+    "name": "Pink T-Shirt",
+    "price": "9.99",
+    "imgPath": "images/pink.jpg"
+  },
+  {
+    "name": "Type 7 T-Shirt",
+    "price": "12.00",
+    "imgPath": "images/seven.png"
+  },
+  {
+    "name": "Porsche",
+    "price": "19.99",
+    "imgPath": "images/porche.jpg"
+  }
+]

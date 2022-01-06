@@ -10,6 +10,26 @@
     "imgPath": "images/pinkh.png"
   },
   {
+    "name": "Light Green Hoodie",
+    "price": "40.00",
+    "imgPath": "images/lightgreenhood.jpg"
+  },
+  {
+    "name": "Paint Pour Hoodie",
+    "price": "45.00",
+    "imgPath": "images/graphichoodie.jpg"
+  },
+  {
+    "name": "Symbol Hoodie",
+    "price": "45.00",
+    "imgPath": "images/symbolhood.jpg"
+  },
+  {
+    "name": "Grey Graphic Hoodie",
+    "price": "45.00",
+    "imgPath": "images/greyhood.jpg"
+  },
+  {
     "name": "Green Flannel",
     "price": "12.99",
     "imgPath": "images/flannel.jpg"
@@ -98,5 +118,40 @@
     "name": "Grey Joggers",
     "price": "30.00",
     "imgPath": "images/greyjogger.webp"
+  },
+  {
+    "name": "Grey Sweat Pants",
+    "price": "20.00",
+    "imgPath": "images/greysweat.jpg"
+  },
+  {
+    "name": "Navy Sweat Pants",
+    "price": "20.00",
+    "imgPath": "images/navysweatpants.png"
+  },
+  {
+    "name": "NF Sweat Pants",
+    "price": "27.50",
+    "imgPath": "images/fleecebsp.jpg"
+  },
+  {
+    "name": "Black Leggings",
+    "price": "34.99",
+    "imgPath": "images/leggings.png"
+  },
+  {
+    "name": "Grey Cotton Leggings",
+    "price": "34.99",
+    "imgPath": "images/greycleg.png"
+  },
+  {
+    "name": "Grey Leggings",
+    "price": "34.99",
+    "imgPath": "images/greyleggings.png"
+  },
+  {
+    "name": "Red Leggings",
+    "price": "34.99",
+    "imgPath": "images/redleggings.png"
   }
 ]

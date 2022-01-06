@@ -4,74 +4,8 @@ if (document.readyState == "loading") {
   ready();
 
   function ready() {
-    fetch("new.json")
-      .then((response) => {
-        console.log("resolved", response);
-        return response.json();
-      })
-      .then((data) => {
-        Array.from(data).forEach(function (d) {
-          var item = document.createElement("div");
-          item.classList.add("shop-items");
-
-          var items = document.getElementsByClassName("shop-items")[0];
-          var cartRowContents = ` 
-      <div class="shop-item">
-      <span class="shop-item-title">${d.name}</span>
-      <img class="shop-item-image" src="${d.imgPath}" />
-      <div class="shop-item-details">
-        <span class="shop-item-price">$ ${d.price}</span>
-        <button class="btn btn-primary shop-item-button" type="button">
-          ADD TO CART
-        </button>`;
-          item.innerHTML = cartRowContents;
-          items.append(item);
-          var addToCartBtn =
-            document.getElementsByClassName("shop-item-button");
-          for (var i = 0; i < addToCartBtn.length; i++) {
-            var button = addToCartBtn[i];
-            button.addEventListener("click", addToCartClicked);
-          }
-        });
-        console.log(data);
-      })
-      .catch((err) => {
-        console.log("rejected", err);
-      });
-    fetch("spring.json")
-      .then((response) => {
-        console.log("resolved", response);
-        return response.json();
-      })
-      .then((data) => {
-        Array.from(data).forEach(function (d) {
-          var item = document.createElement("div");
-          item.classList.add("shop-item");
-
-          var items = document.getElementsByClassName("spring-cloth")[0];
-          var cartRowContents = ` 
-      <div class="shop-item">
-      <span class="shop-item-title">${d.name}</span>
-      <img class="shop-item-image" src="${d.imgPath}" />
-      <div class="shop-item-details">
-        <span class="shop-item-price">$ ${d.price}</span>
-        <button class="btn btn-primary shop-item-button" type="button">
-          ADD TO CART
-        </button>`;
-          item.innerHTML = cartRowContents;
-          items.append(item);
-          var addToCartBtn =
-            document.getElementsByClassName("shop-item-button");
-          for (var i = 0; i < addToCartBtn.length; i++) {
-            var button = addToCartBtn[i];
-            button.addEventListener("click", addToCartClicked);
-          }
-        });
-        console.log(data);
-      })
-      .catch((err) => {
-        console.log("rejected", err);
-      });
+    var select = document.querySelector("select");
+    select.addEventListener("change", runEvent);
   }
   var removeCartItemBtn = document.getElementsByClassName("btn-danger");
   for (var i = 0; i < removeCartItemBtn.length; i++) {
@@ -88,6 +22,129 @@ if (document.readyState == "loading") {
   document
     .getElementsByClassName("btn-purchase")[0]
     .addEventListener("click", purchaseClicked);
+}
+function runEvent(e) {
+  console.log("EVENT TYPE: " + e.type);
+  if (e.target.value === "0") {
+    document.getElementById("divid").innerHTML = `<div class="shop-items">`;
+    var sec = document.getElementById("select-name");
+    sec.textContent = "";
+  } else if (e.target.value === "1") {
+    document.getElementById("divid").innerHTML = `<div class="shop-items">`;
+    var sec = document.getElementById("select-name");
+    sec.textContent = "Winter Clothing";
+    console.log(sec);
+    fetch("new.json")
+      .then((response) => {
+        console.log("resolved", response);
+        return response.json();
+      })
+      .then((data) => {
+        Array.from(data).forEach(function (d) {
+          var item = document.createElement("div");
+          item.classList.add("shop-items");
+
+          var items = document.getElementsByClassName("shop-items")[0];
+          var cartRowContents = ` 
+        <div class="shop-item">
+        <span class="shop-item-title">${d.name}</span>
+        <img class="shop-item-image" src="${d.imgPath}" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$ ${d.price}</span>
+          <button class="btn btn-primary shop-item-button" type="button">
+            ADD TO CART
+          </button>`;
+          item.innerHTML = cartRowContents;
+          items.append(item);
+          var addToCartBtn =
+            document.getElementsByClassName("shop-item-button");
+          for (var i = 0; i < addToCartBtn.length; i++) {
+            var button = addToCartBtn[i];
+            button.addEventListener("click", addToCartClicked);
+          }
+        });
+        console.log(data);
+      })
+      .catch((err) => {
+        console.log("rejected", err);
+      });
+  } else if (e.target.value === "2") {
+    var sec = document.getElementById("select-name");
+    document.getElementById("divid").innerHTML = `<div class="shop-items">`;
+    sec.textContent = "Spring Clothing";
+    fetch("spring.json")
+      .then((response) => {
+        console.log("resolved", response);
+        return response.json();
+      })
+      .then((data) => {
+        Array.from(data).forEach(function (d) {
+          var item = document.createElement("div");
+          item.classList.add("shop-items");
+
+          var items = document.getElementsByClassName("shop-items")[0];
+          var cartRowContents = ` 
+        <div class="shop-item">
+        <span class="shop-item-title">${d.name}</span>
+        <img class="shop-item-image" src="${d.imgPath}" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$ ${d.price}</span>
+          <button class="btn btn-primary shop-item-button" type="button">
+            ADD TO CART
+          </button>`;
+          item.innerHTML = cartRowContents;
+          items.append(item);
+          var addToCartBtn =
+            document.getElementsByClassName("shop-item-button");
+          for (var i = 0; i < addToCartBtn.length; i++) {
+            var button = addToCartBtn[i];
+            button.addEventListener("click", addToCartClicked);
+          }
+        });
+        console.log(data);
+      })
+      .catch((err) => {
+        console.log("rejected", err);
+      });
+  } else if (e.target.value === "3") {
+    var sec = document.getElementById("select-name");
+    document.getElementById("divid").innerHTML = `<div class="shop-items">`;
+    sec.textContent = "Summer Clothing";
+    fetch("summer.json")
+      .then((response) => {
+        console.log("resolved", response);
+        return response.json();
+      })
+      .then((data) => {
+        Array.from(data).forEach(function (d) {
+          var item = document.createElement("div");
+          item.classList.add("shop-items");
+
+          var items = document.getElementsByClassName("shop-items")[0];
+          var cartRowContents = ` 
+            <div class="shop-item">
+            <span class="shop-item-title">${d.name}</span>
+            <img class="shop-item-image" src="${d.imgPath}" />
+            <div class="shop-item-details">
+              <span class="shop-item-price">$ ${d.price}</span>
+              <button class="btn btn-primary shop-item-button" type="button">
+                ADD TO CART
+              </button>`;
+          item.innerHTML = cartRowContents;
+          items.append(item);
+          var addToCartBtn =
+            document.getElementsByClassName("shop-item-button");
+          for (var i = 0; i < addToCartBtn.length; i++) {
+            var button = addToCartBtn[i];
+            button.addEventListener("click", addToCartClicked);
+          }
+        });
+        console.log(data);
+      })
+      .catch((err) => {
+        console.log("rejected", err);
+      });
+  }
 }
 
 function purchaseClicked() {

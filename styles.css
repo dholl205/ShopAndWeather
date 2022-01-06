@@ -99,7 +99,7 @@ body {
 }
 
 .main-footer {
-  background-color: #56ccf2;
+  background-color: grey;
   color: white;
   padding: 0.25em 0;
 }
@@ -160,7 +160,7 @@ body {
 
 .btn-primary {
   color: white;
-  background-color: #56ccf2;
+  background-color: black;
   border: none;
   border-radius: 0.3em;
   font-weight: bold;
@@ -339,4 +339,15 @@ body {
   display: block;
   margin: 40px auto 80px auto;
   font-size: 1.75em;
+}
+
+.selectme {
+  margin-top: 3px;
+  color: black;
+  background-color: grey;
+  text-align: center;
+  font-size: 30px;
+  width: 20em;
+  height: 2em;
+  margin-left: 14em;
 }

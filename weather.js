@@ -5,10 +5,10 @@ let weather = {
       "https://api.openweathermap.org/data/2.5/weather?q=" +
         place +
         "&units=imperial&appid=" +
-        this.apiKey
+        weather.apiKey
     )
       .then((res) => res.json())
-      .then((data) => this.displayWeather(data));
+      .then((data) => weather.displayWeather(data));
   },
   displayWeather: (data) => {
     const { name } = data;
@@ -21,12 +21,21 @@ let weather = {
     document.querySelector(".icon").src =
       "https://openweathermap.org/img/wn/" + icon + "@2x.png";
     document.querySelector(".feel").innerText =
-      "Feels Like:" + feels_like + "°F";
-    document.querySelector(".min").innerText = "Min" + temp_min + "°F";
-    document.querySelector(".max").innerText = "Max" + temp_max + "°F";
+      "Feels Like: " + feels_like + "°F";
+    document.querySelector(".min").innerText = "Min: " + temp_min + "°F";
+    document.querySelector(".max").innerText = "Max: " + temp_max + "°F";
     document.querySelector(".desc").innerText = description;
     document.querySelector(".humidity").innerText =
       "Humidity: " + humidity + "%";
     document.querySelector(".wind").innerText = "Wind Speed: " + speed + "MPH";
+    document.body.style.backgroundImage =
+      "url('https://source.unsplash.com/1600x900/?" + name + "')";
+  },
+  searchData: () => {
+    weather.fetchWeather(document.querySelector(".searchBar").value);
   },
 };
+const clickButton = document.querySelector(".button");
+clickButton.addEventListener("click", () => {
+  weather.searchData();
+});

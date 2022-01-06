@@ -5,6 +5,16 @@
     "imgPath": "images/blackt.png"
   },
   {
+    "name": "Orange T-Shirt",
+    "price": "9.99",
+    "imgPath": "images/orangeshirt.jpg"
+  },
+  {
+    "name": "Yellow T-Shirt",
+    "price": "9.99",
+    "imgPath": "images/yellowshirt.jpg"
+  },
+  {
     "name": "Navy T-Shirt",
     "price": "9.99",
     "imgPath": "images/navy.jpg"
