@@ -153,5 +153,25 @@
     "name": "Red Leggings",
     "price": "34.99",
     "imgPath": "images/redleggings.png"
+  },
+  {
+    "name": "Fuzzy Socks",
+    "price": "5.00",
+    "imgPath": "images/fuzzy socks.jpg"
+  },
+  {
+    "name": "Soft Toe Boots",
+    "price": "120.00",
+    "imgPath": "images/bootsoft.jpg"
+  },
+  {
+    "name": "Cowboy Boots",
+    "price": "130.00",
+    "imgPath": "images/cbboot.jpg"
+  },
+  {
+    "name": "Fuzzy Crocs",
+    "price": "64.99",
+    "imgPath": "images/fuzzcroc.jpeg"
   }
 ]

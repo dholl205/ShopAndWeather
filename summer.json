@@ -38,5 +38,100 @@
     "name": "Abstract Palm Shirt",
     "price": "19.99",
     "imgPath": "images/abstractpalm.jpg"
+  },
+  {
+    "name": "Endless Summer T-Shirt",
+    "price": "12.59",
+    "imgPath": "images/esummershirt.jpg"
+  },
+  {
+    "name": "Summer Time T-Shirt",
+    "price": "12.59",
+    "imgPath": "images/summertshirt.jpg"
+  },
+  {
+    "name": "Beach T-Shirt",
+    "price": "12.59",
+    "imgPath": "images/beachsh.jpg"
+  },
+  {
+    "name": "Beach Bum T-Shirt",
+    "price": "12.59",
+    "imgPath": "images/beachbum.jpg"
+  },
+  {
+    "name": "Miami Vice T-Shirt",
+    "price": "12.59",
+    "imgPath": "images/miamivice.jpg"
+  },
+  {
+    "name": "Palm Beach T-Shirt",
+    "price": "12.59",
+    "imgPath": "images/palmbeacht.jpg"
+  },
+  {
+    "name": "Flamingo Swim Trunks",
+    "price": "24.99",
+    "imgPath": "images/flamt.jpg"
+  },
+  {
+    "name": "Pink Shark Swim Trunks",
+    "price": "24.99",
+    "imgPath": "images/sharkpink.jpg"
+  },
+  {
+    "name": "Pink Polo Swim Trunks",
+    "price": "24.99",
+    "imgPath": "images/pinkpolo.jpg"
+  },
+  {
+    "name": "Fortnite Swim Trunks",
+    "price": "24.99",
+    "imgPath": "images/fortnitetrunk.jpg"
+  },
+  {
+    "name": "Blue Fortnite Swim Trunks",
+    "price": "24.99",
+    "imgPath": "images/bluefortnite.jpg"
+  },
+  {
+    "name": "Green Shark Swim Trunks",
+    "price": "24.99",
+    "imgPath": "images/greenshart.jpg"
+  },
+  {
+    "name": "Floral Swim Trunks",
+    "price": "17.99",
+    "imgPath": "images/floraltrunk.png"
+  },
+  {
+    "name": "Blue, Black, Red Women's Swim Suit",
+    "price": "24.99",
+    "imgPath": "images/suitwoman.jpeg"
+  },
+  {
+    "name": "Palm Tree Swim Trunks",
+    "price": "20.99",
+    "imgPath": "images/pinkpalm.jpeg"
+  },
+  {
+    "name": "Black Crocs",
+    "price": "34.99",
+    "imgPath": "images/blcroc.png"
+  },
+  {
+    "name": "Black Flip Flops",
+    "price": "5.99",
+    "imgPath": "images/blackflop.jpeg"
+  },
+  {
+    "name": "Gray Flip Flops",
+    "price": "10.69",
+    "imgPath": "images/flipflop.jpeg"
+  },
+  {
+    "name": "Swimming Slippers",
+    "price": "10.35",
+    "imgPath": "images/swimslip.jpeg"
   }
 ]

@@ -65,6 +65,27 @@
     "imgPath": "images/purpds.png"
   },
   {
+    "name": "Black Rain Coat",
+    "price": "45.99",
+    "imgPath": "images/blackrain.jpg"
+  },
+  {
+    "name": "Navy Rain Coat",
+    "price": "45.99",
+    "imgPath": "images/navyrain.jpg"
+  },
+  {
+    "name": "Grey Rain Coat",
+    "price": "45.99",
+    "imgPath": "images/greyrain.jpg"
+  },
+
+  {
+    "name": "Blue Rain Coat",
+    "price": "45.99",
+    "imgPath": "images/bluerain.webp"
+  },
+  {
     "name": "Black Gym Shorts",
     "price": "15.00",
     "imgPath": "images/blackshort.png"
@@ -74,6 +95,7 @@
     "price": "20.00",
     "imgPath": "images/blackdshort.jpg"
   },
+
   {
     "name": "Black Fleece Shorts",
     "price": "14.99",
@@ -118,5 +140,20 @@
     "name": "Green Cargo Shorts",
     "price": "15.00",
     "imgPath": "images/cargoshortg.png"
+  },
+  {
+    "name": "Socks",
+    "price": "5",
+    "imgPath": "images/socks.jpg"
+  },
+  {
+    "name": "Red Vans",
+    "price": "64.99",
+    "imgPath": "images/vans.jpg"
+  },
+  {
+    "name": "af1",
+    "price": "120.00",
+    "imgPath": "images/af1.jpg"
   }
 ]
