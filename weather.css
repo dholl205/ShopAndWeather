@@ -1,16 +1,11 @@
 .oneDay {
-  width: 35em;
-  height: 60em;
-  padding: 10em;
-  padding-top: 10em;
-  padding-left: 40%;
-}
-.searchBar {
-  font-size: 1em;
+  width: 18em;
   padding: 1em;
+  padding-top: 2em;
+  padding-left: 35%;
 }
 .search {
-  padding: 2.5em;
+  padding: 1em;
 }
 .temp,
 .feel,
@@ -20,16 +15,14 @@
 .humidity,
 .desc,
 .city {
-  color: white;
+  font-size: 2em;
+  color: black;
 }
 .wind {
   padding-bottom: 0.5em;
 }
-.button {
-  font-size: 2em;
-  color: white;
-  background: black;
-  margin-left: 1.5em;
+button {
+  margin-left: 0.5em;
 }
 .weather {
   color: white;
@@ -68,8 +61,7 @@ body {
   flex-wrap: nowrap;
   flex-direction: column;
   width: 100%;
-  height: 30em;
-  background-color: rgba(128, 128, 128, 0.705);
+  background-color: rgba(255, 255, 255, 0.747);
 }
 
 .nav li {
