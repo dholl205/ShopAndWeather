@@ -15,7 +15,8 @@
 .humidity,
 .desc,
 .city {
-  color: white;
+  font-size: 2em;
+  color: black;
 }
 .wind {
   padding-bottom: 0.5em;
@@ -60,7 +61,7 @@ body {
   flex-wrap: nowrap;
   flex-direction: column;
   width: 100%;
-  background-color: gray;
+  background-color: rgba(255, 255, 255, 0.747);
 }
 
 .nav li {
