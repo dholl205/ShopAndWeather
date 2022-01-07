@@ -40,6 +40,21 @@
     "imgPath": "images/abstractpalm.jpg"
   },
   {
+    "name": "Colorful Palm Leaves Shirt",
+    "price": "19.99",
+    "imgPath": "images/colorfulsummerds.png"
+  },
+  {
+    "name": "Two Side Summer Shirt",
+    "price": "27.99",
+    "imgPath": "images/twosidesds.png"
+  },
+  {
+    "name": "White Palm Shirt",
+    "price": "19.99",
+    "imgPath": "images/whitepalm.jpg"
+  },
+  {
     "name": "Endless Summer T-Shirt",
     "price": "12.59",
     "imgPath": "images/esummershirt.jpg"
@@ -68,6 +83,31 @@
     "name": "Palm Beach T-Shirt",
     "price": "12.59",
     "imgPath": "images/palmbeacht.jpg"
+  },
+  {
+    "name": "Island Life T-Shirt",
+    "price": "12.59",
+    "imgPath": "images/islandlife.png"
+  },
+  {
+    "name": "The Sun T-Shirt",
+    "price": "12.59",
+    "imgPath": "images/suntshirt.png"
+  },
+  {
+    "name": "Pineapple T-Shirt",
+    "price": "12.59",
+    "imgPath": "images/pineappleshirt.jpg"
+  },
+  {
+    "name": "Green Palm Leaves T-Shirt",
+    "price": "12.59",
+    "imgPath": "images/greenpalmtshirt.jpg"
+  },
+  {
+    "name": "1980 T-Shirt",
+    "price": "12.59",
+    "imgPath": "images/1980tshirt.jpg"
   },
   {
     "name": "Flamingo Swim Trunks",
@@ -105,6 +145,26 @@
     "imgPath": "images/floraltrunk.png"
   },
   {
+    "name": "Blue Flamingo Swim Trunks",
+    "price": "24.99",
+    "imgPath": "images/blueflamingo.jpg"
+  },
+  {
+    "name": "Baby Ducks Swim Trunks",
+    "price": "24.99",
+    "imgPath": "images/duckie.jpg"
+  },
+  {
+    "name": "Pineapple Swim Trunks",
+    "price": "24.99",
+    "imgPath": "images/pineappletrunks.webp"
+  },
+  {
+    "name": "Lime Float Swim Trunks",
+    "price": "24.99",
+    "imgPath": "images/limefloat.jpg"
+  },
+  {
     "name": "Blue, Black, Red Women's Swim Suit",
     "price": "24.99",
     "imgPath": "images/suitwoman.jpeg"
@@ -113,6 +173,11 @@
     "name": "Palm Tree Swim Trunks",
     "price": "20.99",
     "imgPath": "images/pinkpalm.jpeg"
+  },
+  {
+    "name": "Watermelon Swim Trunks",
+    "price": "24.99",
+    "imgPath": "images/watermelon.jpg"
   },
   {
     "name": "Black Crocs",

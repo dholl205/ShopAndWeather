@@ -35,6 +35,31 @@
     "imgPath": "images/porche.jpg"
   },
   {
+    "name": "Monogram T-Shirt",
+    "price": "13.99",
+    "imgPath": "images/monostshirt.jpg"
+  },
+  {
+    "name": "Flower T-Shirt",
+    "price": "12.00",
+    "imgPath": "images/flowershirt.png"
+  },
+  {
+    "name": "Flower Pocket T-Shirt",
+    "price": "12.00",
+    "imgPath": "images/blueflowerp.png"
+  },
+  {
+    "name": "White Flower T-Shirt",
+    "price": "12.99",
+    "imgPath": "images/whiteflowert.jpg"
+  },
+  {
+    "name": "Supreme T-Shirt",
+    "price": "25.59",
+    "imgPath": "images/supremes.jpg"
+  },
+  {
     "name": "Light Blue Dress Shirt",
     "price": "25.00",
     "imgPath": "images/dressshirt.png"
@@ -84,6 +109,16 @@
     "name": "Blue Rain Coat",
     "price": "45.99",
     "imgPath": "images/bluerain.webp"
+  },
+  {
+    "name": "White Floral Shorts",
+    "price": "25.00",
+    "imgPath": "images/floralwhiteshorts.png"
+  },
+  {
+    "name": "Tan Floral Shorts",
+    "price": "25.00",
+    "imgPath": "images/tanfloralshorts.webp"
   },
   {
     "name": "Black Gym Shorts",
@@ -150,6 +185,16 @@
     "name": "Red Vans",
     "price": "64.99",
     "imgPath": "images/vans.jpg"
+  },
+  {
+    "name": "Colorful Vans",
+    "price": "64.99",
+    "imgPath": "images/uglyvans.jpg"
+  },
+  {
+    "name": "Hightop Colorful Vans",
+    "price": "64.99",
+    "imgPath": "images/highuglyvans.jpg"
   },
   {
     "name": "af1",

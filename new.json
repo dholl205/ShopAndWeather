@@ -20,6 +20,16 @@
     "imgPath": "images/graphichoodie.jpg"
   },
   {
+    "name": "Lone Wolf Hoodie",
+    "price": "45.00",
+    "imgPath": "images/lonewolfhood.jpg"
+  },
+  {
+    "name": "Bakugo Hoodie",
+    "price": "45.00",
+    "imgPath": "images/animehood.jpg"
+  },
+  {
     "name": "Symbol Hoodie",
     "price": "45.00",
     "imgPath": "images/symbolhood.jpg"
@@ -78,6 +88,26 @@
     "name": "Overcoat Grey",
     "price": "100.00",
     "imgPath": "images/coat2.png"
+  },
+  {
+    "name": "Dress Overcoat",
+    "price": "149.39",
+    "imgPath": "images/dressoc.png"
+  },
+  {
+    "name": "Grey Woolen Overcoat",
+    "price": "149.39",
+    "imgPath": "images/greywoc.png"
+  },
+  {
+    "name": "Navy Woolen Overcoat",
+    "price": "149.39",
+    "imgPath": "images/navywoc.png"
+  },
+  {
+    "name": "Maroon Woolen Overcoat",
+    "price": "149.39",
+    "imgPath": "images/maroonwoc.jpg"
   },
   {
     "name": "Grey Dress Shirt",
